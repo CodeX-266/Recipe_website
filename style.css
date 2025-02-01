@@ -1,0 +1,160 @@
+#navlist{
+    list-style-type: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+body, html {
+    overflow-x: hidden;  /* This will hide horizontal overflow */
+    width: 100%;
+}
+#navlist a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: none;
+}
+.container{
+    height: 100vh;
+    width: 100vh;
+    overflow-x: none;
+}
+#brand{
+    font-size: 3rem;
+    color: white;
+}
+.navcontainer{
+    width: 100vw;
+    /* background-color: rgba(40, 40, 228, 0.664); */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg,#0093E9 0%,#80D0C7 100%);
+    height: 85px;
+    
+}
+#contacts{
+    display: flex;
+    gap:100px;
+    
+    
+}
+.luxurious-script-regular {
+    font-family: "Luxurious Script", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contacts a{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+#contacts a:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+#logo{
+    
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+#logo1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+#logo1:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px rgb(255, 255, 255),-2px -2px 12px rgb(255, 255, 255);
+}
+
+.footerbox{
+    width: 100vw;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg,#0093E9 0%,#80D0C7 100%);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerbox p{
+    font-size:2rem;
+    color: azure;
+}
+.contentBox{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 12px black,2px 2px 12px black;
+    background-color: white;
+    padding: 15px;
+}
+main{
+    width: 100vw;
+}
+.item1{
+    
+    border: 1px solid black;
+    box-shadow: 2px 2px 12px black,2px 2px 12px black;
+
+}
+.item1 img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    padding: 5px;
+    border-radius: 25px;
+}
+.item1 img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px rgb(255, 255, 255),-2px -2px 12px rgb(255, 255, 255);
+}
+#quote{
+    text-align: center;
+    font-family: "Luxurious Script", serif;
+    font-size: 80px;
+    font-weight: lighter;
+    
+}
+.item1{
+    display: flex;
+}
+.name h2{
+    font-size: 80px;
+    display: block;
+    padding-left: 5px;
+    font-weight: lighter;
+    box-shadow: 2px 2px 25px rgb(65, 108, 226);
+}
+
+.process{
+    font-size: 20px;
+    padding-left: 5px;
+}
+#thanks{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+}

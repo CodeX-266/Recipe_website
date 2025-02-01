@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Desi Tadka</title>
+    <style>
+        /* Background Styling */
+        body {
+            background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Heading Styling */
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Box */
+        .contact-box {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 700px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Contact Info */
+        .contact-info {
+            font-size: 22px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+            font-size: 24px;
+            color: #ffeb3b;
+        }
+
+        /* Form Styling */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: white;
+            opacity: 0.8;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            background: linear-gradient(45deg, #ff9800, #ff5722);
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .submit-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 5px 15px rgba(255, 87, 34, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Contact Us 📞</h1>
+    <div class="contact-box">
+        <div class="contact-info">
+            <p><i>📍</i> <b>Address:</b> 123 Food Street, Delhi, India</p>
+            <p><i>📧</i> <b>Email:</b> contact@desitadka.com</p>
+            <p><i>📞</i> <b>Phone:</b> +91 98765 43210</p>
+            <p><i>⏰</i> <b>Opening Hours:</b> 9 AM - 10 PM (Mon-Sun)</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
